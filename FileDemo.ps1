@@ -1,4 +1,7 @@
 Configuration FileDemo {
+    
+    Import-DSCResource -ModuleName PSDesiredStateConfiguration
+    
     Node localhost {
         File FileDemo {
             Type = 'Directory'
